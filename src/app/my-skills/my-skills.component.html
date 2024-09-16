@@ -1,0 +1,21 @@
+<div class="skills-container">
+  <div class="skills-section">
+    <p>
+      My Projects
+    </p>
+  </div>
+  <div class="card-container">
+    
+    <app-project-card 
+      *ngFor="let project of ProjectCardComponent" 
+      [projectName]="project.projectName"
+      [projectDescription]="project.projectDescription"
+      [tag1]="project.tag1"
+      [tag2]="project.tag2"
+      [projectLink]="project.projectLink">
+  </app-project-card>
+
+  </div>
+</div>
+
+

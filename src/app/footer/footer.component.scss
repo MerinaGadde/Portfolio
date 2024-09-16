@@ -1,0 +1,21 @@
+
+.container{
+  display: flex;
+  align-items: center;
+}
+.social-links {
+  width: 220px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
+
+  .social-links a{
+    color: black;
+  }
+
+  .social-links a :hover{
+    transform: translate(0,-10%);
+  }
